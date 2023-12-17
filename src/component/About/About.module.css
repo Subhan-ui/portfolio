@@ -1,0 +1,56 @@
+.AboutSection {
+  background-color: #120f1a;
+  overflow-x: hidden;
+}
+.skills {
+  color: wheat;
+}
+.about {
+  display: flex;
+  justify-content: space-around;
+  color: wheat;
+  flex-wrap: wrap;
+  height: 102vh;
+  align-items: center;
+}
+.about p,
+h1 {
+  line-height: 29px;
+}
+.about h1 {
+  padding: 17px;
+}
+.about p {
+  font-size: 1.2rem;
+}
+.small {
+  height: 25px;
+}
+
+.iconsOfImg {
+  height: 200px;
+  width: 200px;
+
+  background-repeat: no-repeat;
+  border: 1.7px solid rgba(200, 137, 230, 0.637);
+  margin: 40px 20px;
+  transition: all 0.4s ease 0s;
+  font-size: 4.5em;
+  border-radius: 5px;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137);
+}
+
+.icons {
+  text-align: center;
+}
+.iconsOfImg:hover {
+  transform: scale(1.05);
+  border: 2.2px solid rgba(197, 115, 230, 0.883);
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    flex-direction: column-reverse;
+    margin-top: 71px;
+  }
+}
