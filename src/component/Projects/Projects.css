@@ -1,0 +1,86 @@
+.project {
+  line-height: 2rem;
+  overflow-x: hidden;
+}
+.slide {
+  text-align: center;
+}
+
+.swiper .swiper-wrapper {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 281px;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, transparent, #0006);
+}
+
+.swiper-slide {
+  width: 166% !important;
+}
+.swiper {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  width: 130vw;
+  height: 42vh;
+}
+
+.projectMain {
+  background-color: #120f1a;
+  color: wheat;
+  padding: 5rem 9rem 0 9rem;
+}
+.link1234 {
+  text-decoration: none;
+  color: wheat;
+  display: flex;
+
+  justify-content: center;
+  align-items: baseline;
+}
+
+.ul {
+  list-style: none;
+  display: flex;
+  height: 250px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin: 0 auto;
+
+  align-items: center;
+}
+.ul::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  background: #fff3;
+  -webkit-border-radius: 1ex;
+}
+
+.ul::-webkit-scrollbar-thumb {
+  background: purple;
+  -webkit-border-radius: 1ex;
+}
+
+.ul::-webkit-scrollbar-corner {
+  background: #fff3;
+}
+.li {
+  flex: 0 0 400px;
+  margin: 0 1px 0 0;
+}
+.liImage {
+  width: 400px;
+  height: auto;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1025px) {
+  .projectMain {
+    padding: 5rem 4rem 0 4rem;
+  }
+}
+@media screen and (max-width: 601px) {
+  .projectMain {
+    padding: 5rem 1rem 0 1rem;
+  }
+}

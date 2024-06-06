@@ -1,0 +1,69 @@
+.AboutSection {
+  background-color: #120f1a;
+  padding: 0 9rem;
+  overflow-x: hidden;
+}
+.skills {
+  color: wheat;
+}
+.about {
+  display: flex;
+  justify-content: space-around;
+  color: wheat;
+
+  height: 102vh;
+  align-items: center;
+}
+.about p,
+h1 {
+  line-height: 29px;
+}
+.about h1 {
+  padding: 17px;
+}
+.about p {
+  font-size: 1.2rem;
+}
+.small {
+  height: 25px;
+}
+
+.icons {
+  text-align: center;
+}
+.iconsOfImg:hover {
+  transform: scale(1.05);
+  border: 2.2px solid rgba(197, 115, 230, 0.883);
+}
+
+@media screen and (max-width: 1025px) {
+  .AboutSection {
+    padding: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    flex-direction: column-reverse;
+    margin-top: 185px;
+  }
+}
+@media screen and (max-width: 455px) {
+  .about {
+    margin-top: 224px;
+  }
+}
+@media screen and (max-width: 394px) {
+  .about {
+    margin-top: 242px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .about {
+    margin-top: 186px;
+  }
+  .img-about {
+    height: 200px;
+    width: 200px;
+  }
+}

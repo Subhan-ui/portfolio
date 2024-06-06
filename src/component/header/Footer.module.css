@@ -1,0 +1,26 @@
+.Footer {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0;
+}
+.CompleteFooter {
+  background-color: rgba(0, 0, 0, 0.99);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Footer a {
+  text-decoration: none;
+  margin: 12px;
+}
+.footerCopyright {
+  color: wheat;
+}
+
+@media screen and (max-width: 615px) {
+  .CompleteFooter {
+    flex-direction: column;
+  }
+}

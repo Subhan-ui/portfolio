@@ -1,0 +1,138 @@
+.Animation {
+  height: 350px;
+  width: auto;
+}
+.wholeHomeComponent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 96vh;
+}
+.itsWholeComponent {
+  background-color: #120f1a;
+  color: wheat;
+  padding: 0 9rem;
+}
+
+.findMeOn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 34px;
+  margin-bottom: 0;
+}
+.findMeOn1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Downloading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacts {
+  display: flex;
+  justify-content: center;
+}
+
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.1s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+.introPart {
+  width: 50vw;
+
+  height: 50vh;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.heading {
+  line-height: 4rem;
+}
+
+@media screen and (max-width: 769px) {
+  .wholeHomeComponent {
+    height: 100vh;
+    padding: 102px;
+    flex-direction: column;
+  }
+  .findMeOn {
+    margin-top: 161px;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .heading {
+    width: 44vw;
+    line-height: 3rem;
+  }
+  .AnimationDiv {
+    width: 44vw;
+  }
+  .wholeHomeComponent {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 102px;
+  }
+  .itsWholeComponent {
+    padding: 0;
+  }
+  .introPart {
+    width: 100vw;
+    text-align: center;
+  }
+  .introPart h1 {
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 541px) {
+  .wholeHomeComponent {
+    flex-direction: column;
+  }
+  .introPart {
+    width: 100vw;
+  }
+  .AnimationDiv {
+    width: 100vw;
+    margin: auto;
+  }
+  .Animation {
+    display: block;
+    margin: auto;
+    width: 70vw;
+
+    height: auto;
+  }
+}
